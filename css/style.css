@@ -1,0 +1,86 @@
+
+body {
+  font-family: 'Helvetica Neue', serif;
+  max-width: 100%;
+  /*background: linear-gradient(0deg, rgba(246,246,246,1) 0%, rgba(230,251,255,1) 100%);*/
+  background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(157,22,255,1) 100%);
+  
+
+}
+
+
+p  a, h1 a {
+      color: black;
+      text-decoration: underline;
+    }
+
+p a:hover, h1 a:hover {
+      color: blue;
+      text-decoration: none;
+    }
+    
+p {
+  
+  margin-left: 20px;
+  letter-spacing:-0.07em;
+  line-height: 1.2;
+
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing:-0.07em;
+  margin-left: 20px;
+  
+  text-align: top;
+}
+
+
+.text-top {
+
+    position: relative;
+    font-size: 5rem;
+    color: black;
+    z-index: 1000
+    background-color: none;
+    margin-top: 10px;
+    font-weight: 500;
+
+    
+    
+
+}
+
+.text-bottom {
+    position: relative;
+    font-size: 6.3rem;
+    color: black;
+    z-index: 1000
+    margin-top: 10px;
+    background: none;
+    opacity: 1  ;
+    font-weight: 500;
+
+
+}
+
+
+
+
+
+.col-auto {
+  background-color: none;
+  background: none;
+}
+
+img{
+   
+  width: 6%;
+  vertical-align: baseline;
+
+}
+
+i {
+  font-size: 30px;
+  letter-spacing:-0.05em;
+}
