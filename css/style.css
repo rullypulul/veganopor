@@ -84,3 +84,7 @@ i {
   font-size: 30px;
   letter-spacing:-0.05em;
 }
+
+ol {
+  padding-left: 0.9em;
+}
